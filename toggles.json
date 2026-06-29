@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "label": "Service Restart",
+        "on_command": "mbpoll -m tcp 127.0.0.1 -p 502 -a 2 -r 1 -t 0 1",
+        "off_command": "mbpoll -m tcp 127.0.0.1 -p 502 -a 2 -r 1 -t 0 0",
+        "container_id": 1
+    },
+    {
+        "id": 2,
+        "label": "Port Enable",
+        "on_command": "echo Toggle_2_ON",
+        "off_command": "echo Toggle_2_OFF",
+        "container_id": 1
+    },
+    {
+        "id": 3,
+        "label": "SNMP Sync",
+        "on_command": "echo Toggle_3_ON",
+        "off_command": "echo Toggle_3_OFF",
+        "container_id": 1
+    },
+    {
+        "id": 4,
+        "label": "Backup Trigger",
+        "on_command": "echo Toggle_4_ON",
+        "off_command": "echo Toggle_4_OFF",
+        "container_id": 1
+    },
+    {
+        "id": 5,
+        "label": "Firewall Rule",
+        "on_command": "echo Toggle_5_ON",
+        "off_command": "echo Toggle_5_",
+        "container_id": 1
+    },
+    {
+        "id": 6,
+        "label": "Cache Clear",
+        "on_command": "echo Toggle_6_ON",
+        "off_command": "echo Toggle_6_OFF",
+        "container_id": 1
+    },
+    {
+        "id": 7,
+        "label": "Monitoring",
+        "on_command": "echo Toggle_7_ON",
+        "off_command": "echo Toggle_7_OFF",
+        "container_id": 1
+    },
+    {
+        "id": 8,
+        "label": "Maintenance",
+        "on_command": "echo Turn_8_On",
+        "off_command": "echo Turn_8_Off",
+        "container_id": 1
+    },
+    {
+        "id": 9,
+        "container_id": 2,
+        "label": "kajnfko",
+        "on_command": "amskln",
+        "off_command": "lakdmvlk",
+        "status_command": ""
+    }
+]
